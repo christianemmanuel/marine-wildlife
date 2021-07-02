@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Conv_Tahu!';
+	src: url('../fonts/tahu/Tahu!.eot');
+	src: local('☺'), url('../fonts/tahu/Tahu!.woff') format('woff'), url('../fonts/tahu/Tahu!.ttf') format('truetype'), url('../fonts/tahu/Tahu!.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_aller_Bold';
+	src: url('../fonts/aller_bold/aller.eot');
+	src: local('☺'), url('../fonts/aller_bold/aller.woff') format('woff'), url('../fonts/aller_bold/aller.ttf') format('truetype'), url('../fonts/aller_bold/aller.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+

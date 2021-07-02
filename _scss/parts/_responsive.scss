@@ -1,0 +1,265 @@
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1076px) {
+  .main_nav nav ul li a {
+    font-size: 17px;
+    padding: 6px 10px;
+  }
+  .main_nav {
+    height: 85px;
+    border-bottom: 1px solid #dcdcdc;
+  }
+  .main_nav .logo img {
+    min-width: 55px;
+  }
+  .main_nav nav {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 85px;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 1;
+    display: none;
+  }
+  .main_nav .language ul li {
+    margin-bottom: 4px;
+  }
+  .main_nav nav ul li {
+    margin-bottom: 0;
+  }
+  .main_nav nav ul li ul {
+    position: relative;
+    flex-direction: column;
+  }
+  .main_nav nav ul li ul li {
+    margin-bottom: 4px;
+  }
+  .main_nav nav ul {
+    flex-direction: column;
+    padding: 15px 30px;
+  }
+  .main_nav .language a {
+    font-size: 12px;
+    padding: 3px 10px;
+    padding-top: 4px;
+    margin: 0 0;
+  }
+  .main_nav .language {
+    margin-left: auto;
+  }
+  button#toggle_menu {
+    display: block;
+    margin-left: auto;
+  }
+  .lg__padding {
+    padding: 60px 0;
+  }
+}
+
+ // Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {  }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .container {
+    padding: 0 20px;
+  }
+  .main_header {
+    height: auto;
+    padding: 30px 0;
+  }
+  .main_header .header_detail {
+    padding-bottom: 0;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  .main_header .header_detail ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 5px;
+  }
+  .main_header .header_detail ul li {
+    font-size: 20px;
+  }
+
+  .money_back_guarantee .container {
+    flex-direction: column;
+  }
+  .money_back_guarantee .item {
+    margin: auto !important;
+  }
+  .money_back_guarantee .item:first-child {
+    margin-bottom: 25px !important;
+  }
+  th, td {
+    width: auto;
+  }
+  .measurement__of {
+    .grid_wrapper__3 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .responsive_table {
+    overflow-x: auto;
+  }
+  table {
+    min-width: 695px;
+  }
+  footer {
+    text-align: center;
+    .container {
+      flex-direction: column;
+    }
+    .logo {
+      display: none;
+    }
+    .address, ul {
+      padding-left: 0;
+    }
+    ul {
+      margin: 25px 0;
+    }
+    .send_inquiry {
+      margin-left: 0;
+    }
+  }
+
+  .waters_guide  {
+    figure figcaption {
+      font-size: 20px;
+    }
+    .grid_wrapper__2 {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .instruction {
+    .grid_wrapper__5 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .grid_wrapper__6 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  .video_installation {
+    width: 100%;
+    height: 410px;
+  }
+  .get_in_touch {
+    height: auto;
+  }
+  .unbeatable_benefits {
+    font-size: 45px;
+    max-width: 100%;
+    padding: 30px 40px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .healthBenefits {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 70px;
+    .item {
+      height: 350px;
+      a {
+        &:first-child {
+          height: 340px;
+          display: block;
+          overflow: hidden;
+          img {
+            height: 340px;
+            width: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+    .caption {
+      bottom: -42px;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .main_nav nav ul {
+    padding: 15px 20px;
+  }
+  .unbeatable_benefits {
+    font-size: 30px;
+  }
+  h5, ul li {
+    font-size: 17px;
+  }
+  .money_back_guarantee .item .item_icon img {
+    min-width: 40px;
+  }
+  th, td {
+    padding: 10px;
+    font-size: 17px;
+  }
+  p {
+    font-size: 17px;
+  }
+  table {
+    margin: 1.5rem 0;
+  }
+  .waters_guide figure figcaption {
+    font-size: 18px;
+    height: auto;
+    width: 90%;
+  }
+  .waters_guide .item:before {
+    top: -31px;
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
+  }
+  .instruction {
+    .grid_wrapper__5 {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px 12px;
+    }
+    .grid_wrapper__6 {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px 12px;
+    }
+  }
+  .lg__padding {
+    padding: 50px 0;
+  }
+  .video_installation {
+    width: 100%;
+    height: 350px;
+  }
+  .get_in_touch {
+    padding: 40px 20px;
+  }
+  .get_in_touch .get_in_touch_detail {
+    padding-bottom: 15px;
+  }
+  .get_in_touch .get_in_touch_detail .grid_wrapper__2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+ @media (max-width: 450px) {
+  .main_header .header_detail ul {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+
+  .money_back_guarantee .item {
+    margin-left: 0 !important;
+  }
+  .measurement__of {
+    .grid_wrapper__3 {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .instruction {
+    .grid_wrapper__6 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+ }

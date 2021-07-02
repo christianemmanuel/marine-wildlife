@@ -1,0 +1,56 @@
+.ocean-background {
+  background-color: #fff8e8;
+  background-image: url(../../assets/images/home_bg.jpg);
+  background-repeat:repeat-y;
+  background-size: cover;
+  background-position: top center;
+  height: calc(100vh - 90px);
+  width: 100%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  overflow-y: auto;
+  .floating_species {
+    position: absolute;
+    transition: all ease-in-out 500ms;
+    filter: brightness(0) invert(1);
+    &:hover,
+    &.show {
+      filter: brightness(1) invert(0);
+    }
+    img {
+      width: 100%;
+    }
+    &.species_one {
+      transform: translate(-110%, -50%);
+      top: 50%;
+      left: 40%;
+      zoom: 0.56;
+      z-index: 1;
+    }
+    &.species_two {
+      transform: translate(-46%, -50%);
+      top: 50%;
+      left: 50%;
+    }
+    &.species_three1 {
+      transform: translate(-88%, -40%);
+      top: 50%;
+      left: 50%;
+      zoom: 0.4;
+    }
+    &.species_three2 {
+      transform: translate(-50%, -50%);
+      top: 89%;
+      left: 40%;
+      zoom: 0.56;
+    }
+    &.species_four {
+      transform: translate(-50%, 47%);
+      top: 50%;
+      right: 14%;
+      zoom: 0.56;
+      z-index: 1;
+    }
+  }
+}

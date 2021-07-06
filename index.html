@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/main.css">
 
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images//favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="./assets/images//favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/images//favicon-16x16.png">
@@ -20,7 +22,7 @@
   <!-- Local Font -->
   <link rel="stylesheet" href="./assets/css/font.css">
 </head>
-<body>
+<body class="landing-page">
 
   <div id="app">
 
@@ -47,21 +49,24 @@
     </div>
 
     <section class="ocean-background">
-      <a href="1" class="floating_species species_one">
-        <img src="./assets/images/landing_page/1_dugong.png" alt="Dugong">
-      </a>
-      <a href="2" class="floating_species species_two">
-        <img src="./assets/images/landing_page/2_marine.png" alt="Marine Mammals">
-      </a>
-      <a href="#" class="floating_species species_three1">
-        <img src="./assets/images/landing_page/3_sharks1.png" alt="Shark and Rays">
-      </a>
-      <a href="#" class="floating_species species_three2">
-        <img src="./assets/images/landing_page/3_sharks2.png" alt="Shark and Rays">
-      </a>
-      <a href="#" class="floating_species species_four">
-        <img src="./assets/images/landing_page/4_turtle.png" alt="Marine Turle">
-      </a>
+      <div class="container">
+        <h1>Marine Wildlife Watch Of The Philippines</h1>
+        <a title="LEARN MORE ABOUT DUGONG" href="1" class="floating_species species_one">
+          <img src="./assets/images/landing_page/1_dugong.png" alt="Dugong">
+        </a>
+        <a title="LEARN MORE ABOUT MARINE MAMMALS" href="2" class="floating_species species_two">
+          <img src="./assets/images/landing_page/2_marine.png" alt="Marine Mammals">
+        </a>
+        <a title="LEARN MORE ABOUT SHARK & RAYS" href="#" class="floating_species species_three1">
+          <img src="./assets/images/landing_page/3_sharks1.png" alt="Shark and Rays">
+        </a>
+        <a title="LEARN MORE ABOUT SHARK & RAYS" href="#" class="floating_species species_three2">
+          <img src="./assets/images/landing_page/3_sharks2.png" alt="Shark and Rays">
+        </a>
+        <a title="LEARN MORE ABOUT MARINE TURTLES" href="#" class="floating_species species_four">
+          <img src="./assets/images/landing_page/4_turtle.png" alt="Marine Turle">
+        </a>
+      </div>
     </section>
 
     <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180">
@@ -76,8 +81,17 @@
   </div> <!-- #app -->
   
   <script src="./assets/js/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="./assets/js/smoothScroll.js"></script>
   <script src="./assets/js/scrollspy.js"></script>
   <script src="./assets/js/scripts.js"></script>
+
+  <script>
+    $( function() {
+    $( document ).tooltip({
+      position: { my: "center", at: "bottom" }
+    });
+  } );
+  </script>
 </body>
 </html>

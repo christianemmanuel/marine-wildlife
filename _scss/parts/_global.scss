@@ -1,5 +1,5 @@
 body {
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Conv_aller_Bold';
   font-weight: 500;
   font-size: 20px;
   line-height: 1.25em;
@@ -97,6 +97,7 @@ a {
   display: flex;
   flex-direction: column;
   padding: 0 30px;
+  position: relative;
 }
 .grid-wrapper {
   display: grid;
@@ -115,7 +116,7 @@ img {
   background: rgba(240, 78, 54, 0.2); /* Gecko Browsers */
 }
 .btn {
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Conv_aller_Bold';
   font-size: 0.875rem;
   border: none;
   padding: .375rem 1.25rem;
@@ -340,7 +341,7 @@ tr {
     margin-bottom: 0;
   }
   input, textarea {
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Conv_aller_Bold';
     background-color: transparent;
     border: 1px solid $white;
     width: 100%;

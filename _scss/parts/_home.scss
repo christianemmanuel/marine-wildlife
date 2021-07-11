@@ -4,6 +4,13 @@ body.landing-page {
   background-repeat: repeat-y;
   background-size: cover;
   background-position: top center;
+  .main_nav {
+    background-color: #fff8e8;
+    background-image: url(../../assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .floating_species {

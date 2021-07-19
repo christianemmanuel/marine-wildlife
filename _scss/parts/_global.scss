@@ -465,6 +465,14 @@ tr {
 }
 .etps-new {
   background-color: #92c6d0;
+  margin-top: 60px;
+  svg.top-wave {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -290px;
+    z-index: -1;
+  }
   .float-fish {
     position: absolute;
   }
@@ -577,4 +585,131 @@ tr {
     margin-top: 10px;
     margin-bottom: 0;
   }
+}
+
+.about-us-detail {
+  .project-details {
+    p {
+      font-size: 22px;
+    }
+  }
+}
+
+.etps {
+  &.project-detail-bottom {
+    text-align: left;
+    .container {
+      max-width: 1320px;
+    }
+    h3 {
+      font-size: 39px;
+    }
+    .grid-wrapper {
+      gap: 0;
+      margin-top: 25px;
+    }
+    .floating-dugong {
+      transform: scaleX(-1);
+      max-width: 500px;
+      position: absolute;
+      right: 0;
+      top: 230px;
+      z-index: -1;
+    }
+  }
+}
+
+.project-details-wrapper {
+  display: flex;
+  align-items: center;
+  .about-us-img {
+    img {
+      max-width: 550px;
+    }
+  }
+  .project-details{
+    padding-left: 30px;
+  }
+}
+.marine-mammals-img-1 {
+  padding-top: 30px;
+}
+
+.etps.project-detail-bottom {
+  .grid-wrapper {
+    &.class-mammalia {
+      gap: 15px;
+      img {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.etps.species-list-wrapper {
+  height: auto;
+  background-size: contain;
+  padding-bottom: 430px;
+}
+.long-img {
+  margin-top: 25px;
+}
+.project-details-sharks {
+  .wave-details-left {
+    width: auto;
+    max-width: 600px;
+    img {
+      max-width: 370px;
+    }
+  }
+}
+
+.our-partners-sharks {
+  .wave-details-left {
+    width: auto;
+    max-width: 600px;
+    img {
+      max-width: 250px;
+    }
+  }
+}
+
+.etps {
+  &.species-list-wrapper-sharks {
+    height: 1660px;
+    background-size: contain;
+  }
+}
+
+
+.project-details-wrapper .about-us-img.about-us-turtle {
+  padding-right: 100px;
+  img {
+    max-width: 290px;
+  }
+}
+.floating-turtle-support {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 200px;
+  transform: rotate(35deg);
+  z-index: -1;
+}
+.floating-shark-support {
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  max-width: 380px;
+  z-index: -1;
+  opacity: .7;
+}
+.floating-dugong-support {
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+  max-width: 430px;
+  left: -140px;
+}
+.species_three2 {
+  padding-bottom: 70px;
 }
